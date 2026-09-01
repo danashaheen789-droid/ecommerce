@@ -1,0 +1,45 @@
+{
+  "customers": [
+    {"column_name": "customer_id", "column_position": 1},
+    {"column_name": "customer_unique_id", "column_position": 2},
+    {"column_name": "customer_zip_code_prefix", "column_position": 3},
+    {"column_name": "customer_city", "column_position": 4},
+    {"column_name": "customer_state", "column_position": 5}
+  ],
+  "products": [
+    {"column_name": "product_id", "column_position": 1},
+    {"column_name": "product_category_name", "column_position": 2},
+    {"column_name": "product_name_lenght", "column_position": 3},
+    {"column_name": "product_description_lenght", "column_position": 4},
+    {"column_name": "product_photos_qty", "column_position": 5},
+    {"column_name": "product_weight_g", "column_position": 6},
+    {"column_name": "product_length_cm", "column_position": 7},
+    {"column_name": "product_height_cm", "column_position": 8},
+    {"column_name": "product_width_cm", "column_position": 9}
+  ],
+  "sellers": [
+    {"column_name": "seller_id", "column_position": 1},
+    {"column_name": "seller_zip_code_prefix", "column_position": 2},
+    {"column_name": "seller_city", "column_position": 3},
+    {"column_name": "seller_state", "column_position": 4}
+  ],
+  "orders": [
+    {"column_name": "order_id", "column_position": 1},
+    {"column_name": "customer_id", "column_position": 2},
+    {"column_name": "order_status", "column_position": 3},
+    {"column_name": "order_purchase_timestamp", "column_position": 4},
+    {"column_name": "order_approved_at", "column_position": 5},
+    {"column_name": "order_delivered_carrier_date", "column_position": 6},
+    {"column_name": "order_delivered_customer_date", "column_position": 7},
+    {"column_name": "order_estimated_delivery_date", "column_position": 8}
+  ],
+  "order_items": [
+    {"column_name": "order_id", "column_position": 1},
+    {"column_name": "order_item_id", "column_position": 2},
+    {"column_name": "product_id", "column_position": 3},
+    {"column_name": "seller_id", "column_position": 4},
+    {"column_name": "shipping_limit_date", "column_position": 5},
+    {"column_name": "price", "column_position": 6},
+    {"column_name": "freight_value", "column_position": 7}
+  ]
+}
